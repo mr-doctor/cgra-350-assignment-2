@@ -2,7 +2,6 @@
 #include <cmath>
 #include <iostream>
 #include <stdexcept>
-#include <zconf.h>
 #include <cgra/bone.hpp>
 #include <fstream>
 #include <sstream>
@@ -222,13 +221,13 @@ void Application::drawScene() {
 }
 
 void Application::draw(cgra::Mesh mesh,
-                       glm::vec3 position,
-                       glm::vec3 scale,
-                       glm::mat4 rotate,
-                       glm::vec3 global_translation,
-                       glm::vec3 global_scale,
-                       glm::mat4 global_rotation) {
-	glm::mat4 model_transform = m_model;
+					   glm::vec3 position,
+					   glm::vec3 scale,
+					   glm::mat4 rotate,
+					   glm::vec3 global_translation,
+					   glm::vec3 global_scale,
+					   glm::mat4 global_rotation) {
+	glm::mat4 model_transform = glm::mat4(m_model);
 
 	model_transform = glm::translate(model_transform, glm::vec3(0, 0, 0));
 
@@ -252,15 +251,14 @@ void Application::draw(cgra::Mesh mesh,
 }
 
 
-void Application::draw_bone(cgra::Mesh mesh,
-                            glm::vec3 position,
-                            glm::vec3 scale,
-                            glm::mat4 rotate,
-                            glm::vec3 global_translation,
-                            glm::vec3 global_scale,
-                            glm::mat4 global_rotation) {
+void Application::draw(cgra::Mesh mesh,
+					   glm::vec3 scale,
+					   glm::mat4 rotate,
+					   glm::vec3 global_translation,
+					   glm::vec3 global_scale,
+					   glm::mat4 global_rotation) {
 
-	glm::mat4 model_transform = m_model;
+	glm::mat4 model_transform = glm::mat4(m_model);
 
 	model_transform = glm::translate(model_transform, global_translation);
 
@@ -294,7 +292,7 @@ void Application::doGUI() {
 
 	}
 
-	if (ImGui::Button("Fuck")) {
+	if (ImGui::Button("Kick")) {
 		if (!fooed) {
 			fooed = true;
 			m_skeleton.m_bones[m_skeleton.findBone("rfemur")].rotation = glm::vec3(45);

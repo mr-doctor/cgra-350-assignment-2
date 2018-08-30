@@ -82,13 +82,13 @@ public:
 	static cgra::Mesh m_arrow_y_mesh;
 	static cgra::Mesh m_arrow_z_mesh;
 
-	static void draw_bone(cgra::Mesh mesh, glm::vec3 position, glm::vec3 scale, glm::mat4 rotate,
-	                      glm::vec3 global_translation,
-	                      glm::vec3 global_scale, glm::mat4 global_rotation);
+	static void draw(cgra::Mesh mesh, glm::vec3 scale, glm::mat4 rotate,
+					 glm::vec3 global_translation,
+					 glm::vec3 global_scale, glm::mat4 global_rotation);
 
 	static void draw(cgra::Mesh mesh, glm::vec3 position, glm::vec3 scale, glm::mat4 rotate,
-	                 glm::vec3 global_translation,
-	                 glm::vec3 global_scale, glm::mat4 global_rotation);
+					 glm::vec3 global_translation,
+					 glm::vec3 global_scale, glm::mat4 global_rotation);
 
 
 	glm::vec3 screen_to_world_coord(double mouse_x, double mouse_y);

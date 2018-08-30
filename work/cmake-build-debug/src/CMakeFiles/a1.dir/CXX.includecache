@@ -750,6 +750,26 @@ euler_angles.inl
 compatibility.hpp
 ../vendor/glm/glm/gtx/compatibility.hpp
 
+../vendor/glm/glm/gtx/rotate_vector.hpp
+../glm.hpp
+../vendor/glm/glm/glm.hpp
+../gtx/transform.hpp
+../vendor/glm/glm/gtx/transform.hpp
+rotate_vector.inl
+../vendor/glm/glm/gtx/rotate_vector.inl
+
+../vendor/glm/glm/gtx/rotate_vector.inl
+
+../vendor/glm/glm/gtx/transform.hpp
+../glm.hpp
+../vendor/glm/glm/glm.hpp
+../gtc/matrix_transform.hpp
+../vendor/glm/glm/gtc/matrix_transform.hpp
+transform.inl
+../vendor/glm/glm/gtx/transform.inl
+
+../vendor/glm/glm/gtx/transform.inl
+
 ../vendor/glm/glm/integer.hpp
 detail/func_integer.hpp
 ../vendor/glm/glm/detail/func_integer.hpp
@@ -836,11 +856,11 @@ assert.h
 imgui_user.h
 ../vendor/imgui/imgui_user.h
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp
 bone.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.hpp
 utility
 -
 vector
@@ -848,49 +868,49 @@ vector
 array
 -
 matrix.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
 imgui.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui.h
 imgui_impl_glfw_gl3.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
 GLFW/glfw3native.h
 -
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
 stdexcept
 -
 vector
 -
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp
 iostream
 -
 stdexcept
 -
 mesh.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
 vector
 -
 matrix.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp
 iostream
 -
 fstream
@@ -902,15 +922,15 @@ string
 stdexcept
 -
 shader.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/opengl.hpp
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/glm/glm.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp
 iostream
 -
 fstream
@@ -920,15 +940,15 @@ sstream
 stdexcept
 -
 wavefront.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
 vector
 -
 glm/glm.hpp
 -
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp
 algorithm
 -
 cmath
@@ -936,8 +956,6 @@ cmath
 iostream
 -
 stdexcept
--
-zconf.h
 -
 cgra/bone.hpp
 -
@@ -954,39 +972,39 @@ array
 algorithm
 -
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
 imgui.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/imgui.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/imgui.h
 cgra/matrix.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/matrix.hpp
 cgra/wavefront.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.hpp
 ex1.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
 glm/gtc/matrix_transform.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/gtc/matrix_transform.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/gtc/matrix_transform.hpp
 glm/gtx/euler_angles.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/gtx/euler_angles.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/gtx/euler_angles.hpp
 skeleton.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 printer.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
 cgra/bone.hpp
 -
 cgra/mesh.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.hpp
 cgra/shader.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.hpp
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
 skeleton.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp
 stdio.h
 -
 iostream
@@ -994,41 +1012,41 @@ iostream
 iomanip
 -
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
 imgui.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/imgui.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/imgui.h
 cgra/imgui_impl_glfw_gl3.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.h
 ex1.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp
 parser.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp
 iostream
 -
 glm/vec3.hpp
 -
 printer.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
 skeleton.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
 skeleton.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp
 cmath
 -
 iostream
@@ -1047,16 +1065,20 @@ cgra/mesh.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
+glm/gtx/euler_angles.hpp
+-
+glm/gtx/rotate_vector.hpp
+-
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
 skeleton.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 printer.h
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.h
 ex1.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.hpp
 
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.hpp
 cmath
 -
 iostream
@@ -1072,7 +1094,7 @@ vector
 cgra/mesh.hpp
 -
 glm/glm.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/glm/glm.hpp
 opengl.hpp
-/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
+/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/opengl.hpp
 
