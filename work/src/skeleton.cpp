@@ -45,6 +45,8 @@
 #include <cgra/bone.hpp>
 #include <cgra/mesh.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtx/euler_angles.hpp>
+#include <glm/gtx/rotate_vector.hpp>
 
 
 //*** COMP308 had its own math and geometry libraries. CGRA350 students are
@@ -104,10 +106,14 @@ void Skeleton::renderBone(bone *bone,
                           glm::vec3 global_scale,
                           glm::mat4 global_rotation) {
 
+	rotation *= glm::eulerAngleXYZ(glm::radians(bone->rotation.x), glm::radians(bone->rotation.y), glm::radians(bone->rotation.z));
+	rotation *= glm::eulerAngleXYZ(glm::radians(bone->basisRot.x), glm::radians(bone->basisRot.y), glm::radians(bone->basisRot.z));
+
 	Application::draw(Application::m_sphere_mesh, position, glm::vec3(1.2f * 0.1f), glm::mat4(1), global_translation,
 	                  global_scale, global_rotation);
+	bone->m_pos = position;
 
-	glm::vec3 new_pos = position + bone->boneDir * bone->length * 5.0f;
+	glm::vec3 new_pos = position + /*new_dir **/ bone->length * 5.0f;
 //	printer::print(rotation);
 //	printer::print("\n");
 	if (bone->name != "root") {
@@ -138,6 +144,7 @@ void Skeleton::renderBone(bone *bone,
 		                       rotation, global_translation, global_scale, global_rotation);
 	}
 	for (auto &child : bone->children) {
+//		glm::mat4 rotate = glm::eulerAngleXYZ(child->rotation.x, child->rotation.y, child->rotation.z);
 		glm::mat4 align = glm::inverse(glm::lookAt(new_pos, new_pos - child->boneDir, glm::vec3(0, 1, 0)));
 		renderBone(child, new_pos, align, global_translation, global_scale, global_rotation);
 	}
@@ -174,6 +181,23 @@ int Skeleton::findBone(string name) {
 			return i;
 	return -1;
 }
+
+
+bone Skeleton::get_bone(glm::vec3 point) {
+	for (size_t i = 0; i < m_bones.size(); i++) {
+		point.z = m_bones[i].m_pos.z;
+		if (glm::distance(m_bones[i].m_pos, point) <= 0.05f) {
+			printer::print("found!");
+			return m_bones[i];
+		}
+	}
+	return bone();
+}
+
+void Skeleton::reset_point() {
+
+}
+
 
 
 //*** read an ASF file
@@ -453,6 +477,5 @@ void Skeleton::readAMC(string filename) {
 	// ...
 
 }
-
 // YOUR CODE GOES HERE
 // ...

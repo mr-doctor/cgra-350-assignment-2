@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/daniel/.CLion2018.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/a1.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/a1.dir/flags.make
 
 src/CMakeFiles/a1.dir/ex1.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/ex1.cpp.o: ../src/ex1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/a1.dir/ex1.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/ex1.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/a1.dir/ex1.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/ex1.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp
 
 src/CMakeFiles/a1.dir/ex1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/ex1.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp > CMakeFiles/a1.dir/ex1.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp > CMakeFiles/a1.dir/ex1.cpp.i
 
 src/CMakeFiles/a1.dir/ex1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/ex1.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp -o CMakeFiles/a1.dir/ex1.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/ex1.cpp -o CMakeFiles/a1.dir/ex1.cpp.s
 
 src/CMakeFiles/a1.dir/ex1.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/a1.dir/ex1.cpp.o.provides.build: src/CMakeFiles/a1.dir/ex1.cpp.o
 
 src/CMakeFiles/a1.dir/main.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/a1.dir/main.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/main.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/a1.dir/main.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/main.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp
 
 src/CMakeFiles/a1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/main.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp > CMakeFiles/a1.dir/main.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp > CMakeFiles/a1.dir/main.cpp.i
 
 src/CMakeFiles/a1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/main.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp -o CMakeFiles/a1.dir/main.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/main.cpp -o CMakeFiles/a1.dir/main.cpp.s
 
 src/CMakeFiles/a1.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/a1.dir/main.cpp.o.provides.build: src/CMakeFiles/a1.dir/main.cpp.
 
 src/CMakeFiles/a1.dir/cgra/bone.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/cgra/bone.cpp.o: ../src/cgra/bone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/a1.dir/cgra/bone.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/bone.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/a1.dir/cgra/bone.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/bone.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp
 
 src/CMakeFiles/a1.dir/cgra/bone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/cgra/bone.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp > CMakeFiles/a1.dir/cgra/bone.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp > CMakeFiles/a1.dir/cgra/bone.cpp.i
 
 src/CMakeFiles/a1.dir/cgra/bone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/cgra/bone.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp -o CMakeFiles/a1.dir/cgra/bone.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/bone.cpp -o CMakeFiles/a1.dir/cgra/bone.cpp.s
 
 src/CMakeFiles/a1.dir/cgra/bone.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/a1.dir/cgra/bone.cpp.o.provides.build: src/CMakeFiles/a1.dir/cgra
 
 src/CMakeFiles/a1.dir/parser.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/parser.cpp.o: ../src/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/a1.dir/parser.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/parser.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/a1.dir/parser.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/parser.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp
 
 src/CMakeFiles/a1.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/parser.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp > CMakeFiles/a1.dir/parser.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp > CMakeFiles/a1.dir/parser.cpp.i
 
 src/CMakeFiles/a1.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/parser.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp -o CMakeFiles/a1.dir/parser.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/parser.cpp -o CMakeFiles/a1.dir/parser.cpp.s
 
 src/CMakeFiles/a1.dir/parser.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/a1.dir/parser.cpp.o.provides.build: src/CMakeFiles/a1.dir/parser.
 
 src/CMakeFiles/a1.dir/skeleton.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/skeleton.cpp.o: ../src/skeleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/a1.dir/skeleton.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/skeleton.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/a1.dir/skeleton.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/skeleton.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp
 
 src/CMakeFiles/a1.dir/skeleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/skeleton.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp > CMakeFiles/a1.dir/skeleton.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp > CMakeFiles/a1.dir/skeleton.cpp.i
 
 src/CMakeFiles/a1.dir/skeleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/skeleton.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp -o CMakeFiles/a1.dir/skeleton.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/skeleton.cpp -o CMakeFiles/a1.dir/skeleton.cpp.s
 
 src/CMakeFiles/a1.dir/skeleton.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/a1.dir/skeleton.cpp.o.provides.build: src/CMakeFiles/a1.dir/skele
 
 src/CMakeFiles/a1.dir/printer.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/printer.cpp.o: ../src/printer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/a1.dir/printer.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/printer.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/a1.dir/printer.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/printer.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp
 
 src/CMakeFiles/a1.dir/printer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/printer.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp > CMakeFiles/a1.dir/printer.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp > CMakeFiles/a1.dir/printer.cpp.i
 
 src/CMakeFiles/a1.dir/printer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/printer.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp -o CMakeFiles/a1.dir/printer.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/printer.cpp -o CMakeFiles/a1.dir/printer.cpp.s
 
 src/CMakeFiles/a1.dir/printer.cpp.o.requires:
 
@@ -203,16 +203,16 @@ src/CMakeFiles/a1.dir/printer.cpp.o.provides.build: src/CMakeFiles/a1.dir/printe
 
 src/CMakeFiles/a1.dir/cgra/mesh.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/cgra/mesh.cpp.o: ../src/cgra/mesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/a1.dir/cgra/mesh.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/mesh.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/a1.dir/cgra/mesh.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/mesh.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp
 
 src/CMakeFiles/a1.dir/cgra/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/cgra/mesh.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp > CMakeFiles/a1.dir/cgra/mesh.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp > CMakeFiles/a1.dir/cgra/mesh.cpp.i
 
 src/CMakeFiles/a1.dir/cgra/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/cgra/mesh.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp -o CMakeFiles/a1.dir/cgra/mesh.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/mesh.cpp -o CMakeFiles/a1.dir/cgra/mesh.cpp.s
 
 src/CMakeFiles/a1.dir/cgra/mesh.cpp.o.requires:
 
@@ -227,16 +227,16 @@ src/CMakeFiles/a1.dir/cgra/mesh.cpp.o.provides.build: src/CMakeFiles/a1.dir/cgra
 
 src/CMakeFiles/a1.dir/cgra/shader.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/cgra/shader.cpp.o: ../src/cgra/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/a1.dir/cgra/shader.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/shader.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/a1.dir/cgra/shader.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/shader.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp
 
 src/CMakeFiles/a1.dir/cgra/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/cgra/shader.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp > CMakeFiles/a1.dir/cgra/shader.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp > CMakeFiles/a1.dir/cgra/shader.cpp.i
 
 src/CMakeFiles/a1.dir/cgra/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/cgra/shader.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp -o CMakeFiles/a1.dir/cgra/shader.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/shader.cpp -o CMakeFiles/a1.dir/cgra/shader.cpp.s
 
 src/CMakeFiles/a1.dir/cgra/shader.cpp.o.requires:
 
@@ -251,16 +251,16 @@ src/CMakeFiles/a1.dir/cgra/shader.cpp.o.provides.build: src/CMakeFiles/a1.dir/cg
 
 src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o: ../src/cgra/wavefront.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/wavefront.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/wavefront.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp
 
 src/CMakeFiles/a1.dir/cgra/wavefront.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/cgra/wavefront.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp > CMakeFiles/a1.dir/cgra/wavefront.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp > CMakeFiles/a1.dir/cgra/wavefront.cpp.i
 
 src/CMakeFiles/a1.dir/cgra/wavefront.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/cgra/wavefront.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp -o CMakeFiles/a1.dir/cgra/wavefront.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/wavefront.cpp -o CMakeFiles/a1.dir/cgra/wavefront.cpp.s
 
 src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o.requires:
 
@@ -275,16 +275,16 @@ src/CMakeFiles/a1.dir/cgra/wavefront.cpp.o.provides.build: src/CMakeFiles/a1.dir
 
 src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o: src/CMakeFiles/a1.dir/flags.make
 src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o: ../src/cgra/imgui_impl_glfw_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o -c /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o -c /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp
 
 src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp > CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp > CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.i
 
 src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp -o CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra/imgui_impl_glfw_gl3.cpp -o CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.s
 
 src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.cpp.o.requires:
 
@@ -339,8 +339,8 @@ bin/a1.exe: bin/libimgui.a
 bin/a1.exe: /cygdrive/c/MinGW/lib/libopengl32.a
 bin/a1.exe: /cygdrive/c/MinGW/lib/libglu32.a
 bin/a1.exe: src/CMakeFiles/a1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/a1.exe"
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/a1.exe"
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/a1.dir/build: bin/a1.exe
@@ -361,10 +361,10 @@ src/CMakeFiles/a1.dir/requires: src/CMakeFiles/a1.dir/cgra/imgui_impl_glfw_gl3.c
 .PHONY : src/CMakeFiles/a1.dir/requires
 
 src/CMakeFiles/a1.dir/clean:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/a1.dir/cmake_clean.cmake
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/a1.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/a1.dir/clean
 
 src/CMakeFiles/a1.dir/depend:
-	cd /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src /cygdrive/c/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src/CMakeFiles/a1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src /cygdrive/c/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/cmake-build-debug/src/CMakeFiles/a1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/a1.dir/depend
 

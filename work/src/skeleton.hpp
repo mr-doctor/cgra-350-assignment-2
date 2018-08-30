@@ -90,14 +90,13 @@ struct bone {
 	glm::vec3 translation;       // Translation (Only for the Root)
 	glm::vec3 rotation_max;      // Maximum value for rotation for this joint (degrees)
 	glm::vec3 rotation_min;      // Minimum value for rotation for this joint (degrees)
+	glm::vec3 m_pos;
 };
 
 
 class Skeleton {
 
 private:
-	// Helper method
-	int findBone(std::string);
 
 	// Reading code
 	void readASF(std::string);
@@ -117,4 +116,11 @@ public:
 	// YOUR CODE GOES HERE
 	// ...
 	void renderBone(bone *bone, glm::vec3 position, glm::mat4 rotation, glm::vec3 global_translation, glm::vec3 global_scale, glm::mat4 global_rotation);
+
+	bone get_bone(glm::vec3 point);
+
+	void reset_point();
+
+// Helper method
+int findBone(std::string);
 };

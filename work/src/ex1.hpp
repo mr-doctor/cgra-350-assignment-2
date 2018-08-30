@@ -91,4 +91,12 @@ public:
 	                 glm::vec3 global_scale, glm::mat4 global_rotation);
 
 
+	glm::vec3 screen_to_world_coord(double mouse_x, double mouse_y);
+
+	static glm::mat4 m_view;
+	static glm::mat4 m_model;
+	static glm::mat4 m_proj;
+
+	float m_depth = -1.0f;
+	bone selected = bone();
 };

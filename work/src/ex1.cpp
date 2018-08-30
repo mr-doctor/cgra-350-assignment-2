@@ -32,17 +32,21 @@ cgra::Mesh Application::m_arrow_x_mesh;
 cgra::Mesh Application::m_arrow_y_mesh;
 cgra::Mesh Application::m_arrow_z_mesh;
 
+glm::mat4 Application::m_model;
+glm::mat4 Application::m_proj;
+glm::mat4 Application::m_view;
 
 void Application::init() {
 
 	set_shaders(CGRA_SRCDIR "/res/shaders/simple.vs.glsl", CGRA_SRCDIR "/res/shaders/simple.fs.glsl");
 
-	glm::mat4 viewMatrix(1);
-	viewMatrix[3] = glm::vec4(0, 0, -10, 1);
-	m_program.setViewMatrix(viewMatrix);
+	m_view = glm::mat4(1);
+	m_view[3] = glm::vec4(0, 0, -10, 1);
+	m_program.setViewMatrix(m_view);
 
 	glm::vec3 rotation(1.0f, 1.0f, 0.0f);
 	m_rotationMatrix = glm::rotate(glm::mat4(1.0f), 45.0f, glm::vec3(rotation[0], rotation[1], rotation[2]));
+	selected.m_pos = glm::vec3(-20);
 
 	m_skeleton = Skeleton(CGRA_SRCDIR "/res/models/priman.asf");
 	m_bone_mesh = loadObj(CGRA_SRCDIR "/res/models/frustrum-small.obj", -2);
@@ -194,10 +198,10 @@ void Application::drawScene() {
 	// width / height
 	float aspectRatio = m_viewportSize.x / m_viewportSize.y;
 	// Calculate the projection matrix with a field-of-view of 45 degrees
-	glm::mat4 projectionMatrix = glm::perspective(glm::radians(45.0f), aspectRatio, 0.1f, 100.0f);
+	m_proj = glm::perspective(glm::radians(45.0f), aspectRatio, 0.1f, 100.0f);
 
 	// Set the projection matrix
-	m_program.setProjectionMatrix(projectionMatrix);
+	m_program.setProjectionMatrix(m_proj);
 //	glm::mat4 model_transform = m_rotationMatrix * glm::mat4(1.0f);
 
 	/************************************************************
@@ -224,7 +228,7 @@ void Application::draw(cgra::Mesh mesh,
                        glm::vec3 global_translation,
                        glm::vec3 global_scale,
                        glm::mat4 global_rotation) {
-	glm::mat4 model_transform(1.0f);
+	glm::mat4 model_transform = m_model;
 
 	model_transform = glm::translate(model_transform, glm::vec3(0, 0, 0));
 
@@ -256,7 +260,7 @@ void Application::draw_bone(cgra::Mesh mesh,
                             glm::vec3 global_scale,
                             glm::mat4 global_rotation) {
 
-	glm::mat4 model_transform(1.0f);
+	glm::mat4 model_transform = m_model;
 
 	model_transform = glm::translate(model_transform, global_translation);
 
@@ -276,19 +280,31 @@ void Application::draw_bone(cgra::Mesh mesh,
 	mesh.draw();
 }
 
+bool fooed = false;
+
 void Application::doGUI() {
-	/*ImGui::SetNextWindowSize(ImVec2(450, 450), ImGuiSetCond_FirstUseEver);
+	ImGui::SetNextWindowSize(ImVec2(450, 450), ImGuiSetCond_FirstUseEver);
 	ImGui::Begin("Shapes");
 
 	// Example for rotation, use glm to create a a rotation
 	// matrix from this vector
 	static glm::vec3 rotation(0.0f, 0.0f, 0.0f);
-	if (ImGui::InputFloat3("Rotation", &rotation[0])) {
+	if (ImGui::InputFloat3("Point Rotation", &rotation[0])) {
 		// This block is executed if the input changes
-		m_rotationMatrix = glm::rotate(glm::mat4(1.0f), 45.0f, glm::vec3(rotation[0], rotation[1], rotation[2]));
+
 	}
 
-	ImGui::End();*/
+	if (ImGui::Button("Fuck")) {
+		if (!fooed) {
+			fooed = true;
+			m_skeleton.m_bones[m_skeleton.findBone("rfemur")].rotation = glm::vec3(45);
+		} else {
+			m_skeleton.m_bones[m_skeleton.findBone("rfemur")].rotation = glm::vec3(0);
+			fooed = false;
+		}
+	}
+
+	ImGui::End();
 }
 
 
@@ -299,6 +315,14 @@ void Application::onMouseButton(int button, int action, int) {
 		// Set the 'down' state for the appropriate mouse button
 		m_mouseButtonDown[button] = action == GLFW_PRESS;
 	}
+}
+
+glm::vec3 Application::screen_to_world_coord(double mouse_x, double mouse_y) {
+	mouse_y = m_viewportSize.y - mouse_y;
+	glm::vec4 viewport(0, 0, m_viewportSize.x, m_viewportSize.y);
+	// converts screen points to in-world coordinates using glm and the three matrices
+	glm::vec3 worldPos = glm::unProject(glm::vec3(mouse_x, mouse_y, m_depth), m_view*m_model, m_proj, viewport);
+	return worldPos;
 }
 
 void Application::onCursorPos(double xpos, double ypos) {
@@ -313,10 +337,13 @@ void Application::onCursorPos(double xpos, double ypos) {
 		apply_arcball(currentMousePosition);
 	} else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_MIDDLE]) {
 
-	} else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_RIGHT]) {
-
+	} else if (m_mouseButtonDown[GLFW_MOUSE_BUTTON_RIGHT] && selected.m_pos.x != -20) {
+		/*if (m_depth == -1) {
+			// read the depth to the last pixel on the screen
+			glReadPixels(int(xpos), int(m_viewportSize.y - ypos), 1, 1, GL_DEPTH_COMPONENT, GL_FLOAT, &m_depth);
+		}*/
+		selected = m_skeleton.get_bone(glm::vec3(screen_to_world_coord(xpos, ypos)));
 	}
-
 	// Update the mouse position to the current one
 	m_mousePosition = currentMousePosition;
 }

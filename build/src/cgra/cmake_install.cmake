@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra
+# Install script for directory: C:/Users/daniel/workspace/cgra350/cgra-350-assignment-2/work/src/cgra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
